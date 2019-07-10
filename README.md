@@ -1,3 +1,3 @@
 # Zabo NYC Demo
 
-We are working to have this repo ready to clone by tonight. Check back soon!
+We will be using this project to develop an app connecting to crypto wallets using Zabo, for the July 15 NYC Blockchain Dev meetup. To prepare in advance, clone this repo to your machine. See you there!

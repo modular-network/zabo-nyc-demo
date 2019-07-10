@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="example.css" type="text/css" />
+  <title>My NYC Blockchain Developers App</title>
+</head>
+
+<body>
+  <section class="content-holder">
+    <h2>My NYC Dev App with Zabo</h2>
+    <button id="connect" type="button" name="button">Connect</button>
+
+    <div class="methods">
+      <h4>Other SDK methods</h4>
+      <button id="getBalance" type="button" name="button">Crypto Balances</button>
+      <button id="getHistory" type="button" name="button">Account History</button>
+      <button id="getExchangeRates" type="button" name="button">Exchange Rates</button>
+    </div>
+
+    <h3>Output:</h3>
+
+    <div id="output"></div>
+  </section>
+  <script type="text/javascript" src="https://cdn.zabo.com/0.2.0/zabo.js"></script>
+  <script type="text/javascript">
+    document.onreadystatechange = () => {
+      if (document.readyState !== 'complete') { return }
+
+      document.querySelector('#connect').addEventListener('click', ev => {
+
+      })
+    }
+
+    const bindOtherMethods = () => {
+      document.querySelector('#getBalance').addEventListener('click', ev => {
+
+      })
+
+      document.querySelector('#getHistory').addEventListener('click', ev => {
+
+      })
+
+      document.querySelector('#getExchangeRates').addEventListener('click', ev => {
+
+      })
+    }
+
+    // Output print helper function
+    const printOutput = (obj) => {
+      output.innerHTML = `<pre>${JSON.stringify(obj, null, 2)}</pre>`
+    }
+  </script>
+</body>
+
+</html>
